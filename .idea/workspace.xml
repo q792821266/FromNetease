@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bcf9a56b-ed64-447b-abe9-b0f532661b0d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Program Files\apache-maven-3.6.3-bin\apache-maven-3.6.3\repo" />
+        <option name="mavenHome" value="D:/Program Files/apache-maven-3.6.3-bin/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\Program Files\apache-maven-3.6.3-bin\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1mW9gE7IgO8dwaxyOwiKJz1OsBh" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="D:/Learning/NeteasyYun/subject-4" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15527344" />
+    <property name="project.structure.side.proportion" value="0.19097222" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.jerry.distributed.rpc.server.register" />
+      <recent name="com.jerry.distributed.rpc.common.protocol" />
+      <recent name="com.jerry.distributed.rpc.utils" />
+      <recent name="com.jerry.distributed.rpc.client.discovery" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\jerry\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bcf9a56b-ed64-447b-abe9-b0f532661b0d" name="Default Changelist" comment="" />
+      <created>1609598588947</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609598588947</updated>
+      <workItem from="1609598594391" duration="4894000" />
+      <workItem from="1609661517001" duration="21113000" />
+      <workItem from="1609770984849" duration="25648000" />
+      <workItem from="1609942647319" duration="5358000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="313" y="119" key="#Inspections" timestamp="1609851557312">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="313" y="119" key="#Inspections/0.0.1440.920@0.0.1440.920" timestamp="1609851557312" />
+    <state x="313" y="119" key="#Project_Structure" timestamp="1609945177357">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="313" y="119" key="#Project_Structure/0.0.1440.920@0.0.1440.920" timestamp="1609945177357" />
+    <state x="526" y="177" key="#com.intellij.ide.util.MemberChooser" timestamp="1609948433604">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="526" y="177" key="#com.intellij.ide.util.MemberChooser/0.0.1440.920@0.0.1440.920" timestamp="1609948433604" />
+    <state x="340" y="109" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1609660140471">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="340" y="109" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1440.920@0.0.1440.920" timestamp="1609660140471" />
+    <state x="500" y="359" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1609642767313">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="500" y="359" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1440.920@0.0.1440.920" timestamp="1609642767313" />
+    <state x="501" y="216" key="FileChooserDialogImpl" timestamp="1609661900394">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="501" y="216" key="FileChooserDialogImpl/0.0.1440.920@0.0.1440.920" timestamp="1609661900394" />
+    <state x="251" y="116" key="Maven.ArtifactSearchDialog" timestamp="1609948067270">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="251" y="116" key="Maven.ArtifactSearchDialog/0.0.1440.920@0.0.1440.920" timestamp="1609948067270" />
+    <state x="202" y="70" key="SettingsEditor" timestamp="1609943519003">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="202" y="70" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1609943519003" />
+    <state x="442" y="202" width="540" height="540" key="StructurePopup" timestamp="1609665956385">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="442" y="202" width="540" height="540" key="StructurePopup/0.0.1440.920@0.0.1440.920" timestamp="1609665956385" />
+    <state x="519" y="238" key="chooseDestDirectoryDialog" timestamp="1609662012309">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="519" y="238" key="chooseDestDirectoryDialog/0.0.1440.920@0.0.1440.920" timestamp="1609662012309" />
+    <state x="391" y="177" width="658" height="566" key="find.popup" timestamp="1609948481438">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="391" y="177" width="658" height="566" key="find.popup/0.0.1440.920@0.0.1440.920" timestamp="1609948481438" />
+    <state x="587" y="327" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup" timestamp="1609745200491">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="587" y="327" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup/0.0.1440.920@0.0.1440.920" timestamp="1609745200491" />
+    <state x="108" y="39" key="new project wizard" timestamp="1609599340531">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="108" y="39" key="new project wizard/0.0.1440.920@0.0.1440.920" timestamp="1609599340531" />
+    <state x="377" y="211" key="run.anything.popup" timestamp="1609948077871">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="377" y="211" key="run.anything.popup/0.0.1440.920@0.0.1440.920" timestamp="1609948077871" />
+    <state x="383" y="195" width="672" height="678" key="search.everywhere.popup" timestamp="1609947160555">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="383" y="195" width="672" height="678" key="search.everywhere.popup/0.0.1440.920@0.0.1440.920" timestamp="1609947160555" />
+  </component>
+</project>
