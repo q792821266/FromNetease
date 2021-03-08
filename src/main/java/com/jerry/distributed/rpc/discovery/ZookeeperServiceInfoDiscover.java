@@ -22,7 +22,7 @@ public class ZookeeperServiceInfoDiscover implements ServiceInfoDiscover {
 
     ZkClient zkClient;
 
-    private String centerRootPath = "/Rpc-framework";
+    private String centerRootPath = "/Rpc-frameWork";
 
     public ZookeeperServiceInfoDiscover() {
         String addr = PropertiesUtils.getProperties("zk.address");
@@ -30,6 +30,7 @@ public class ZookeeperServiceInfoDiscover implements ServiceInfoDiscover {
         zkClient.setZkSerializer(new MyZkSerializer());
     }
 
+    @Override
     @SneakyThrows
     public List<ServiceInfo> getServiceInfos(String name) {
         String servicePath = centerRootPath + "/" + name + "/service";

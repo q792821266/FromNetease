@@ -26,12 +26,14 @@ public class NettyNetClient implements NetClient {
 
     private static Logger Logger = LoggerFactory.getLogger(NettyNetClient.class);
 
+    @Override
     public byte[] sendRequest(byte[] data, ServiceInfo serviceInfo) throws Throwable {
 
         String[] addInfoArray = serviceInfo.getAddress().split(":");
         final SendHandler sendHandler = new SendHandler(data);
 
         byte[] respData;
+
         EventLoopGroup group = new NioEventLoopGroup();
         try {
             Bootstrap bootstrap = new Bootstrap();
@@ -44,9 +46,9 @@ public class NettyNetClient implements NetClient {
                             p.addLast(sendHandler);
                         }
                     });
-            bootstrap.connect(addInfoArray[0], 1).sync();
+            bootstrap.connect(addInfoArray[0], Integer.parseInt(addInfoArray[1])).sync();
             respData = (byte[]) sendHandler.rspData();
-            Logger.info("sendRequest get Reply -{}",respData);
+            //Logger.info("sendRequest get Reply -{}",respData);
         } finally {
             group.shutdownGracefully();
         }
@@ -69,7 +71,7 @@ public class NettyNetClient implements NetClient {
             Logger.info("连接服务端成功");
             ByteBuf reqBuf = Unpooled.buffer(data.length);
             reqBuf.writeBytes(data);
-            Logger.info("客户端发送消息-{}", data);
+            //Logger.info("客户端发送消息-{}", data);
             ctx.writeAndFlush(reqBuf);
         }
 
@@ -79,7 +81,7 @@ public class NettyNetClient implements NetClient {
             ByteBuf bytes = (ByteBuf) msg;
             byte[] resp = new byte[bytes.readableBytes()];
             bytes.readBytes(resp);
-            readMessage = Arrays.toString(resp) + " ??? !";
+            readMessage = resp ;
             cdl.countDown();
         }
 

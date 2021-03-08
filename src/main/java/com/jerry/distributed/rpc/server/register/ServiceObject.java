@@ -13,6 +13,7 @@ import lombok.*;
 @Getter
 @Setter
 @Data
+@AllArgsConstructor
 public class ServiceObject {
 
     private String  name;
