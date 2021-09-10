@@ -21,13 +21,13 @@ import java.util.Map;
 @Setter
 public class RpcResponse implements Serializable {
     private static final long serialVersionUID = -8792699952884873531L;
-    private String status;
+    private RpcStatus status;
 
     private Map<String,String> headers = new HashMap<String,String>();
     private Object returnValue;
     private Exception exception;
 
-    public RpcResponse(String status) {
+    public RpcResponse(RpcStatus status) {
         this.status = status;
     }
 }

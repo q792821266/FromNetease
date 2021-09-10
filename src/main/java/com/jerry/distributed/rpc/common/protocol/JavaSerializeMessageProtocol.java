@@ -20,19 +20,23 @@ public class JavaSerializeMessageProtocol implements MessageProtocol{
         return bout.toByteArray();
     }
 
+    @Override
     public byte[] marshallingRequest(RpcRequest request) throws Exception {
         return this.serialize(request);
     }
 
+    @Override
     public byte[] marshallingResponse(RpcResponse response) throws Exception {
         return this.serialize(response);
     }
 
+    @Override
     public RpcResponse unmarshallingResponse(byte[] responses) throws Exception {
         ObjectInputStream oinput = new ObjectInputStream(new ByteArrayInputStream(responses));
         return (RpcResponse) oinput.readObject();
     }
 
+    @Override
     public RpcRequest unmarshallingRequest(byte[] request) throws Exception {
         ObjectInputStream oinput = new ObjectInputStream(new ByteArrayInputStream(request));
         return (RpcRequest) oinput.readObject();

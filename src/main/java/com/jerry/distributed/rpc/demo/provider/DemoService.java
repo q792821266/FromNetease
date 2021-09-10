@@ -14,6 +14,7 @@ public interface DemoService {
 
     /**
      * HELLO WORLD
+     * @param name
      * @return
      */
     String sayHello(String name);
@@ -21,10 +22,9 @@ public interface DemoService {
     /**
      * 点的乘法
      * @param a
-     * @param b
      * @param multiple
      * @return
      */
-    Point mutiplyPoint(Point a,Point b,int multiple);
+    Point multiplyPoint(Point a,int multiple);
 
 }

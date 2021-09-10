@@ -20,6 +20,7 @@ public class PropertiesUtils {
     static {
         try{
             properties = new Properties();
+            PropertiesUtils.class.getResourceAsStream("/app.properties");
             properties.load(PropertiesUtils.class.getResourceAsStream("/app.properties"));
         } catch (IOException e) {
             e.printStackTrace();
@@ -27,6 +28,6 @@ public class PropertiesUtils {
     }
 
     public static String getProperties(String key){
-        return (String) properties.get("key");
+        return (String) properties.get(key);
     }
 }

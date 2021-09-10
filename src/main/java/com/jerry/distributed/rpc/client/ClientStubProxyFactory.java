@@ -1,5 +1,6 @@
-package com.jerry.distributed.rpc.client.net;
+package com.jerry.distributed.rpc.client;
 
+import com.jerry.distributed.rpc.client.net.NetClient;
 import com.jerry.distributed.rpc.common.protocol.MessageProtocol;
 import com.jerry.distributed.rpc.common.protocol.RpcRequest;
 import com.jerry.distributed.rpc.common.protocol.RpcResponse;
