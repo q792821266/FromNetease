@@ -1,0 +1,16 @@
+server:
+  port: 7000
+spring:
+  application:
+    name: zuul-demo
+
+study:
+  zuul:
+    token-filter:
+      noAuthenticationRoutes: user-token
+
+token:
+  jwt:
+    key: study123
+    iss: 11
+    expired_minute: 10

@@ -11,7 +11,7 @@ public class CrossPrintBySemaphore {
     private static Semaphore semaphoreA = new Semaphore(1);
     private static Semaphore semaphoreB = new Semaphore(0);
     private static AtomicInteger count = new AtomicInteger(100);
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
 
         Thread aThread = new Thread(()->{
             while(count.get() > 0){
@@ -50,6 +50,6 @@ public class CrossPrintBySemaphore {
         }
 
         System.out.println("OMG");
-    }
+    }*/
 
 }
