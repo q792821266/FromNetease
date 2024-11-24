@@ -1,4 +1,4 @@
-package com.study.consumer.controller;
+package com.study.provider.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -6,13 +6,10 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
 @RestController
-public class CustomerController {
-
-    @Autowired
-    private RestTemplate restTemplate;
+public class ProviderController {
 
     @GetMapping("index")
-    public Object getIndex(){
-        return restTemplate.getForObject("http://helloserver/index", String.class, "");
+    public String getIndex(){
+        return "服务器2的响应";
     }
 }

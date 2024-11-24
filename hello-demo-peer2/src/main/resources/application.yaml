@@ -1,0 +1,35 @@
+spring:
+  profiles:
+    active: dev
+
+
+---
+spring:
+  config:
+    activate:
+      on-profile: dev
+  application:
+    name: helloServer
+
+server:
+  port: 10002
+
+eureka:
+  instance:
+    prefer-ip-address: false
+    instance-id: ${spring.application.name}:${server.port}
+    status-page-url-path: /actuator/info
+    health-check-url-path: /actuator/health
+    metadata-map:
+      zone: zone-1
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    prefer-same-zone-eureka: true
+    #region
+    region: guangzhou
+    availability-zones:
+      guangzhou: zone-1
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+      zone-1: http://localhost:8761/eureka
