@@ -30,6 +30,7 @@
         <module>consumer</module>
         <module>GatewayApplication</module>
         <module>spring-cloud-eureka</module>
+        <module>spring-cloud-hystrix</module>
     </modules>
    <dependencyManagement>
        <dependencies>
